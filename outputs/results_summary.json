@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-02T03:17:58.342824",
+  "dataset_info": {
+    "total_samples": 407092,
+    "training_samples": 325673,
+    "test_samples": 81419,
+    "features": 8,
+    "classes": 3
+  },
+  "best_model": {
+    "name": "Random Forest",
+    "accuracy": 0.8527247939670102,
+    "precision": 0.8020781372635017,
+    "recall": 0.8527247939670102,
+    "f1_score": 0.7928997301418704
+  },
+  "all_models": {
+    "Random Forest": {
+      "accuracy": 0.8527247939670102,
+      "precision": 0.8020781372635017,
+      "recall": 0.8527247939670102,
+      "f1_score": 0.7928997301418704
+    },
+    "Logistic Regression": {
+      "accuracy": 0.852270354585539,
+      "precision": 0.7603330263316104,
+      "recall": 0.852270354585539,
+      "f1_score": 0.7846033932659434
+    },
+    "Decision Tree": {
+      "accuracy": 0.851017575750132,
+      "precision": 0.7918835569160569,
+      "recall": 0.851017575750132,
+      "f1_score": 0.7930821260319006
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8525405617853327,
+      "precision": 0.8051542523192674,
+      "recall": 0.8525405617853327,
+      "f1_score": 0.7857095210877508
+    }
+  }
+}
